@@ -1,0 +1,1520 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>91cm_91cm官网高清原创视频_91cm品牌官方视频社区</title>
+<meta name="description" content="91cm官方网站，专注于时尚穿搭与生活影像的原创视频品牌，提供高清正版内容、创作者社区与企业级内容生态，持续运营值得信赖。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1116'/%3E%3Cpath d='M20 46V22l12 10 12-10v24' stroke='%2300e5a0' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --v91-bg:#0f1116;
+  --v91-bg-soft:#161a22;
+  --v91-panel:#1b2029;
+  --v91-line:#2a313d;
+  --v91-text:#e9edf3;
+  --v91-muted:#98a2b3;
+  --v91-accent:#00e5a0;
+  --v91-accent-2:#4f8cff;
+  --v91-warn:#ffcf5c;
+  --v91-radius:16px;
+  --v91-sticky:104px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--v91-bg);
+  color:var(--v91-text);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.v91-container{width:min(1180px,92vw);margin:0 auto}
+.v91-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* 公告条 */
+.v91-notice{
+  background:linear-gradient(90deg,#0c2b22,#123a2c 45%,#0c2b22);
+  border-bottom:1px solid #1d5341;
+  font-size:13px;
+  letter-spacing:.2px;
+}
+.v91-notice-inner{
+  display:flex;align-items:center;gap:14px;
+  padding:9px 0;flex-wrap:wrap;
+}
+.v91-notice-tag{
+  background:var(--v91-accent);color:#06251c;
+  font-weight:700;font-size:11px;padding:2px 9px;border-radius:999px;
+  flex:0 0 auto;
+}
+.v91-notice-list{display:flex;gap:22px;flex-wrap:wrap;color:#b8e6d5}
+.v91-notice-list li{display:flex;align-items:center;gap:7px;font-size:13px}
+.v91-notice-list li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--v91-accent);flex:0 0 auto}
+.v91-notice-more{margin-left:auto;color:var(--v91-accent);font-size:12.5px;white-space:nowrap}
+
+/* 吸顶头 */
+.v91-sticky-wrap{position:sticky;top:0;z-index:80}
+.v91-header{
+  background:rgba(15,17,22,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--v91-line);
+}
+.v91-header-inner{display:flex;align-items:center;gap:20px;padding:14px 0}
+.v91-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.v91-logo-mark{
+  width:38px;height:38px;border-radius:11px;
+  background:linear-gradient(150deg,#00e5a0,#0f8a67);
+  display:grid;place-items:center;color:#04211a;font-weight:800;font-size:16px;
+  box-shadow:0 6px 20px rgba(0,229,160,.22);
+}
+.v91-logo-text b{font-size:18px;letter-spacing:.5px}
+.v91-logo-text span{display:block;font-size:10.5px;color:var(--v91-muted);letter-spacing:2.4px}
+.v91-nav{display:flex;gap:4px;flex:1 1 auto;min-width:0}
+.v91-nav a{
+  padding:7px 13px;border-radius:9px;font-size:14.5px;color:#c3cbd8;white-space:nowrap;
+  transition:.18s;
+}
+.v91-nav a:hover{color:#fff;background:#232a35}
+.v91-header-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.v91-search{position:relative;display:flex;align-items:center}
+.v91-search input{
+  width:186px;padding:9px 34px 9px 13px;border-radius:999px;
+  background:#1a202a;border:1px solid var(--v91-line);
+  color:var(--v91-text);font-size:13.5px;outline:none;transition:.2s;
+}
+.v91-search input:focus{border-color:var(--v91-accent);width:216px;box-shadow:0 0 0 3px rgba(0,229,160,.12)}
+.v91-search button{position:absolute;right:6px;width:26px;height:26px;border-radius:50%;color:var(--v91-accent);font-size:14px}
+.v91-search-hint{
+  position:absolute;top:112%;left:0;right:0;background:#1b2029;
+  border:1px solid var(--v91-line);border-radius:12px;padding:6px;
+  font-size:12.5px;color:#c3cbd8;display:none;z-index:30;box-shadow:0 16px 40px rgba(0,0,0,.5);
+}
+.v91-search-hint.on{display:block}
+.v91-search-hint div{padding:6px 9px;border-radius:8px;cursor:pointer}
+.v91-search-hint div:hover{background:#232a35;color:#fff}
+.v91-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  padding:10px 20px;border-radius:11px;font-size:14px;font-weight:600;
+  transition:.2s;white-space:nowrap;
+}
+.v91-btn-primary{background:var(--v91-accent);color:#04211a}
+.v91-btn-primary:hover{background:#28f3b3;transform:translateY(-1px)}
+.v91-btn-ghost{border:1px solid var(--v91-line);color:#dfe6f0;background:#191e27}
+.v91-btn-ghost:hover{border-color:var(--v91-accent);color:var(--v91-accent)}
+.v91-burger{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--v91-line);background:#191e27}
+.v91-burger span{display:block;width:18px;height:2px;background:#dfe6f0;margin:3.5px auto;border-radius:2px;transition:.2s}
+
+/* 移动导航 */
+.v91-mobile-nav{display:none;background:#12161d;border-bottom:1px solid var(--v91-line)}
+.v91-mobile-nav.open{display:block}
+.v91-mobile-nav a{display:block;padding:12px 6px;border-bottom:1px solid #1e242e;font-size:14.5px;color:#cfd7e3}
+.v91-mobile-nav .v91-mobile-search{display:flex;gap:8px;padding:12px 0}
+.v91-mobile-nav input{flex:1;padding:10px 12px;border-radius:10px;background:#1a202a;border:1px solid var(--v91-line);color:#fff;outline:none}
+
+/* 首屏 左文右侧大图 与数据条 */
+.v91-hero{padding:48px 0 20px;position:relative;overflow:hidden}
+.v91-hero::before{
+  content:"";position:absolute;top:-160px;right:-120px;width:560px;height:560px;
+  background:radial-gradient(circle,rgba(0,229,160,.16),transparent 65%);pointer-events:none;
+}
+.v91-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px;align-items:center}
+.v91-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;color:var(--v91-accent);
+  border:1px solid #1d5341;background:#0e2a22;padding:5px 14px;border-radius:999px;margin-bottom:20px;
+}
+.v91-hero h1{
+  font-size:clamp(34px,4.6vw,56px);line-height:1.16;letter-spacing:-.5px;
+  font-weight:800;margin-bottom:18px;
+}
+.v91-hero h1 em{
+  font-style:normal;
+  background:linear-gradient(115deg,#00e5a0,#4f8cff);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.v91-hero-lead{font-size:16px;color:#b6c0cf;max-width:540px;margin-bottom:24px}
+.v91-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px}
+.v91-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.v91-stat{
+  background:var(--v91-bg-soft);border:1px solid var(--v91-line);
+  border-radius:13px;padding:14px 15px;
+}
+.v91-stat b{display:block;font-size:23px;color:var(--v91-accent);letter-spacing:-.5px}
+.v91-stat span{font-size:12px;color:var(--v91-muted)}
+.v91-hero-visual{position:relative}
+.v91-hero-frame{
+  border-radius:22px;overflow:hidden;border:1px solid #2b3542;
+  box-shadow:0 30px 80px rgba(0,0,0,.55);
+}
+.v91-hero-frame svg{width:100%;height:auto;aspect-ratio:16/11}
+.v91-hero-badge{
+  position:absolute;left:-14px;bottom:22px;background:#12161d;
+  border:1px solid var(--v91-line);border-radius:14px;padding:11px 16px;
+  display:flex;align-items:center;gap:10px;box-shadow:0 14px 32px rgba(0,0,0,.5);
+}
+.v91-live-dot{width:8px;height:8px;border-radius:50%;background:var(--v91-accent);box-shadow:0 0 0 0 rgba(0,229,160,.6);animation:v91pulse 2s infinite}
+@keyframes v91pulse{0%{box-shadow:0 0 0 0 rgba(0,229,160,.55)}70%{box-shadow:0 0 0 10px rgba(0,229,160,0)}100%{box-shadow:0 0 0 0 rgba(0,229,160,0)}}
+.v91-hero-badge b{display:block;font-size:12.5px}
+.v91-hero-badge span{font-size:11px;color:var(--v91-muted)}
+
+/* 通用 section */
+.v91-section{padding:56px 0}
+.v91-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px;flex-wrap:wrap}
+.v91-sec-head h2{font-size:clamp(23px,2.6vw,30px);letter-spacing:-.3px;line-height:1.3}
+.v91-sec-head h2 span{color:var(--v91-accent)}
+.v91-sec-head p{font-size:13.5px;color:var(--v91-muted);margin-top:6px;max-width:640px}
+.v91-kicker{font-size:12px;letter-spacing:3px;color:var(--v91-accent);text-transform:uppercase;margin-bottom:8px}
+
+/* 关键词解析 */
+.v91-parse{background:var(--v91-bg-soft);border-top:1px solid var(--v91-line);border-bottom:1px solid var(--v91-line)}
+.v91-parse-grid{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:40px;align-items:start}
+.v91-parse h3{font-size:17.5px;margin:24px 0 10px;color:#fff}
+.v91-parse h3:first-child{margin-top:0}
+.v91-parse p{font-size:14.5px;color:#b3bdcc;margin-bottom:12px}
+.v91-parse p b{color:var(--v91-accent);font-weight:600}
+.v91-parse-aside{
+  background:#12161d;border:1px solid var(--v91-line);border-radius:var(--v91-radius);
+  padding:22px;position:sticky;top:calc(var(--v91-sticky) + 16px);
+}
+.v91-parse-aside h3{font-size:15px;margin:0 0 14px;color:var(--v91-accent);letter-spacing:.5px}
+.v91-parse-list li{display:flex;gap:10px;padding:10px 0;border-bottom:1px dashed #232b36;font-size:13.5px;color:#b6c0cf}
+.v91-parse-list li:last-child{border-bottom:none}
+.v91-parse-list i{font-style:normal;color:var(--v91-accent);font-weight:700;flex:0 0 auto}
+
+/* 焦点内容 */
+.v91-focus-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:26px}
+.v91-focus-main{
+  background:var(--v91-panel);border:1px solid var(--v91-line);border-radius:20px;overflow:hidden;
+  transition:.25s;display:flex;flex-direction:column;
+}
+.v91-focus-main:hover{transform:translateY(-3px);border-color:#33465a}
+.v91-focus-main img,.v91-focus-main svg{width:100%;height:auto;aspect-ratio:16/9}
+.v91-focus-body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1 1 auto}
+.v91-tags{display:flex;gap:7px;flex-wrap:wrap}
+.v91-tag{font-size:11.5px;padding:3px 10px;border-radius:999px;background:#232c38;color:#a9e7d2;border:1px solid #2a3a3d}
+.v91-tag.blue{color:#b6cdf9;border-color:#2b3c5e}
+.v91-focus-body h3{font-size:20px;line-height:1.4;color:#fff}
+.v91-focus-body p{font-size:13.5px;color:#a7b2c1}
+.v91-meta{display:flex;align-items:center;gap:14px;font-size:12px;color:var(--v91-muted);flex-wrap:wrap}
+.v91-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+.v91-act{
+  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:6px 12px;
+  border-radius:9px;background:#212934;border:1px solid #2c3542;color:#c8d2df;transition:.18s;
+}
+.v91-act:hover{border-color:var(--v91-accent);color:var(--v91-accent)}
+.v91-act.on{background:#0e2a22;border-color:#1d5341;color:var(--v91-accent)}
+.v91-focus-side{display:flex;flex-direction:column;gap:14px}
+.v91-focus-item{
+  display:flex;gap:14px;background:var(--v91-panel);border:1px solid var(--v91-line);
+  border-radius:14px;padding:14px;transition:.2s;
+}
+.v91-focus-item:hover{border-color:#33465a;transform:translateX(3px)}
+.v91-focus-thumb{width:92px;height:68px;border-radius:10px;overflow:hidden;flex:0 0 auto;background:#131922}
+.v91-focus-thumb svg{width:100%;height:100%;object-fit:cover}
+.v91-focus-item h3{font-size:14.5px;line-height:1.45;margin-bottom:5px;color:#eef3f9}
+.v91-focus-item p{font-size:12.5px;color:#98a2b3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 视频流 三列等高卡片 */
+.v91-videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.v91-video-card{
+  background:var(--v91-panel);border:1px solid var(--v91-line);border-radius:16px;
+  overflow:hidden;display:flex;flex-direction:column;transition:.25s;
+}
+.v91-video-card:hover{transform:translateY(-4px);border-color:#364a5f;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.v91-video-cover{position:relative;background:#131922}
+.v91-video-cover svg{width:100%;height:auto;aspect-ratio:16/9}
+.v91-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;background:rgba(0,229,160,.92);
+  display:grid;place-items:center;color:#04211a;font-size:15px;
+  box-shadow:0 6px 20px rgba(0,0,0,.4);transition:.2s;
+}
+.v91-video-card:hover .v91-play{transform:translate(-50%,-50%) scale(1.12)}
+.v91-video-dur{
+  position:absolute;right:9px;bottom:9px;font-size:11px;background:rgba(4,12,10,.8);
+  padding:2px 7px;border-radius:6px;color:#d8fff2;
+}
+.v91-video-body{padding:15px 16px 16px;display:flex;flex-direction:column;gap:9px;flex:1 1 auto}
+.v91-video-body h3{font-size:15px;line-height:1.45;color:#f0f4fa}
+.v91-video-body p{font-size:12.5px;color:#98a2b3;flex:1 1 auto}
+
+/* 专题 */
+.v91-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.v91-topic{
+  border:1px solid var(--v91-line);border-radius:18px;background:linear-gradient(160deg,#171c25,#12161d);
+  padding:22px;display:flex;flex-direction:column;gap:12px;
+}
+.v91-topic.featured{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:24px;align-items:center;background:linear-gradient(140deg,#10241f,#151b24 60%)}
+.v91-topic-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.v91-topic h3{font-size:18px;color:#fff}
+.v91-status{font-size:11.5px;padding:3px 10px;border-radius:999px;background:#0e2a22;color:var(--v91-accent);border:1px solid #1d5341;white-space:nowrap}
+.v91-status.plan{background:#1f2430;color:#9fb0c6;border-color:#2c3542}
+.v91-topic p{font-size:13.5px;color:#a7b2c1}
+.v91-topic-list{display:flex;flex-direction:column;gap:7px;margin-top:4px}
+.v91-topic-list li{font-size:13px;color:#c3cbd8;display:flex;gap:8px;align-items:flex-start}
+.v91-topic-list li::before{content:"▸";color:var(--v91-accent);flex:0 0 auto}
+.v91-topic-featured-visual svg{width:100%;height:auto;aspect-ratio:16/10;border-radius:14px;border:1px solid #27313e}
+
+/* 作者 双列简介 */
+.v91-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.v91-author{
+  display:flex;gap:16px;background:var(--v91-panel);border:1px solid var(--v91-line);
+  border-radius:16px;padding:18px;transition:.22s;
+}
+.v91-author:hover{border-color:#364a5f;background:#1d232d}
+.v91-avatar{
+  width:58px;height:58px;border-radius:15px;flex:0 0 auto;display:grid;place-items:center;
+  font-weight:800;font-size:20px;color:#04211a;
+}
+.v91-author-info{min-width:0}
+.v91-author-info h3{font-size:15.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.v91-author-info h3 small{font-size:11px;color:var(--v91-accent);background:#0e2a22;border:1px solid #1d5341;padding:1px 7px;border-radius:999px;font-weight:500}
+.v91-author-field{font-size:12px;color:var(--v91-accent);margin:3px 0 6px}
+.v91-author-desc{font-size:12.8px;color:#9ca7b6;line-height:1.65}
+.v91-author-nums{display:flex;gap:14px;font-size:11.5px;color:var(--v91-muted);margin-top:8px;flex-wrap:wrap}
+.v91-author-more{font-size:12px;color:var(--v91-accent);margin-top:8px;display:inline-block}
+
+/* 数据榜单 */
+.v91-rank-wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.v91-rank{background:var(--v91-panel);border:1px solid var(--v91-line);border-radius:16px;padding:20px}
+.v91-rank h3{font-size:15px;color:var(--v91-accent);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.v91-rank ol{display:flex;flex-direction:column;gap:10px}
+.v91-rank li{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#c3cbd8;padding-bottom:10px;border-bottom:1px dashed #262f3b}
+.v91-rank li:last-child{border-bottom:none;padding-bottom:0}
+.v91-rank-no{font-weight:800;font-size:13px;color:#5d6a7c;width:18px;flex:0 0 auto}
+.v91-rank li:nth-child(1) .v91-rank-no{color:var(--v91-warn)}
+.v91-rank li:nth-child(2) .v91-rank-no{color:#c7d0dc}
+.v91-rank li:nth-child(3) .v91-rank-no{color:#c98a5c}
+.v91-rank small{display:block;color:var(--v91-muted);font-size:11.5px;margin-top:2px}
+
+/* 评论 双列短评 */
+.v91-comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.v91-comment{
+  background:var(--v91-bg-soft);border:1px solid var(--v91-line);border-radius:14px;padding:16px 18px;
+}
+.v91-comment-top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.v91-comment-avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:700;color:#04211a}
+.v91-comment-top b{font-size:13px}
+.v91-comment-top span{font-size:11px;color:var(--v91-muted);margin-left:auto}
+.v91-comment p{font-size:13.3px;color:#b0bac8}
+.v91-comment em{color:var(--v91-accent);font-style:normal}
+
+/* 企业动态 */
+.v91-news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.v91-news-item{background:var(--v91-panel);border:1px solid var(--v91-line);border-radius:14px;padding:18px}
+.v91-news-date{font-size:11.5px;color:var(--v91-accent);letter-spacing:1px;margin-bottom:7px}
+.v91-news-item h3{font-size:14.5px;line-height:1.5;margin-bottom:7px}
+.v91-news-item p{font-size:12.5px;color:#98a2b3}
+
+/* 合作 */
+.v91-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.v91-partner{
+  border:1px solid var(--v91-line);border-radius:13px;padding:18px 12px;text-align:center;
+  background:#151a22;font-size:13.5px;color:#aeb9c8;transition:.2s;
+}
+.v91-partner:hover{border-color:#364a5f;color:#fff}
+.v91-partner b{display:block;font-size:17px;color:var(--v91-accent);margin-bottom:4px;letter-spacing:1px}
+
+/* FAQ */
+.v91-faq{display:flex;flex-direction:column;gap:10px;max-width:900px}
+.v91-faq details{
+  background:var(--v91-panel);border:1px solid var(--v91-line);border-radius:13px;
+  padding:0 18px;transition:.2s;
+}
+.v91-faq details[open]{border-color:#2a4a44;background:#171f26}
+.v91-faq summary{
+  cursor:pointer;padding:15px 0;font-size:14.5px;color:#e6ebf2;font-weight:600;
+  list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.v91-faq summary::-webkit-details-marker{display:none}
+.v91-faq summary::after{content:"+";color:var(--v91-accent);font-size:19px;font-weight:400;flex:0 0 auto}
+.v91-faq details[open] summary::after{content:"−"}
+.v91-faq details p{font-size:13.3px;color:#a7b2c1;padding-bottom:16px}
+
+/* 投稿/联系 */
+.v91-cta{
+  background:linear-gradient(130deg,#0e2a22,#101a24 55%,#101723);
+  border:1px solid #1d5341;border-radius:20px;padding:34px;
+  display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:26px;align-items:center;
+}
+.v91-cta h2{font-size:clamp(21px,2.4vw,27px);margin-bottom:10px}
+.v91-cta p{font-size:14px;color:#a7bfb6;max-width:520px}
+.v91-cta-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* 页脚 */
+.v91-footer{background:#0b0d12;border-top:1px solid var(--v91-line);padding:48px 0 26px;margin-top:20px}
+.v91-footer-grid{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:32px;margin-bottom:34px}
+.v91-footer-brand p{font-size:13px;color:#8b95a5;margin-top:12px;max-width:320px}
+.v91-footer h3{font-size:13.5px;color:#d8e0ea;margin-bottom:13px;letter-spacing:.5px}
+.v91-footer li{margin-bottom:9px;font-size:13px;color:#8b95a5}
+.v91-footer a:hover{color:var(--v91-accent)}
+.v91-footer-bottom{border-top:1px solid #1b212b;padding-top:20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#6d7887}
+.v91-footer-bottom a{color:#8b95a5}
+.v91-footer-bottom a:hover{color:var(--v91-accent)}
+
+/* 回到顶部 */
+.v91-top{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;
+  background:var(--v91-panel);border:1px solid var(--v91-line);color:var(--v91-accent);
+  display:none;place-items:center;font-size:17px;z-index:70;box-shadow:0 12px 30px rgba(0,0,0,.5);
+}
+.v91-top.on{display:grid}
+
+/* toast / modal */
+.v91-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:#123a2c;border:1px solid #1d5341;color:#b8e6d5;font-size:13px;
+  padding:11px 20px;border-radius:11px;opacity:0;pointer-events:none;transition:.28s;z-index:120;
+}
+.v91-toast.on{opacity:1;transform:translate(-50%,0)}
+.v91-modal{
+  position:fixed;inset:0;background:rgba(5,8,12,.72);backdrop-filter:blur(4px);
+  display:none;place-items:center;z-index:130;padding:20px;
+}
+.v91-modal.on{display:grid}
+.v91-modal-card{
+  background:#161a22;border:1px solid var(--v91-line);border-radius:18px;
+  width:min(520px,100%);padding:26px;max-height:86vh;overflow:auto;
+}
+.v91-modal-card h3{font-size:18px;margin-bottom:6px}
+.v91-modal-card .v91-modal-sub{font-size:12.5px;color:var(--v91-muted);margin-bottom:16px}
+.v91-modal-card label{display:block;font-size:12.5px;color:#aeb9c8;margin:12px 0 6px}
+.v91-modal-card input,.v91-modal-card textarea{
+  width:100%;padding:10px 12px;border-radius:10px;background:#1a202a;
+  border:1px solid var(--v91-line);color:#fff;outline:none;font-size:13.5px;font-family:inherit;
+}
+.v91-modal-card textarea{resize:vertical;min-height:92px}
+.v91-modal-card input:focus,.v91-modal-card textarea:focus{border-color:var(--v91-accent)}
+.v91-modal-foot{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}
+
+/* 响应式 */
+@media (max-width:1024px){
+  .v91-hero-grid{grid-template-columns:1fr;gap:32px}
+  .v91-hero-visual{order:-1}
+  .v91-nav{display:none}
+  .v91-burger{display:block}
+  .v91-search input{width:150px}
+  .v91-parse-grid{grid-template-columns:1fr}
+  .v91-parse-aside{position:static}
+  .v91-videos{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .v91-rank-wrap{grid-template-columns:1fr}
+  .v91-footer-grid{grid-template-columns:1fr 1fr}
+  .v91-cta{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .v91-header-inner{flex-wrap:wrap;gap:12px}
+  .v91-search{display:none}
+  .v91-hero{padding-top:32px}
+  .v91-focus-grid{grid-template-columns:1fr}
+  .v91-videos{grid-template-columns:1fr}
+  .v91-topics{grid-template-columns:1fr}
+  .v91-topic.featured{grid-template-columns:1fr}
+  .v91-authors{grid-template-columns:1fr}
+  .v91-comments{grid-template-columns:1fr}
+  .v91-news{grid-template-columns:1fr}
+  .v91-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .v91-footer-grid{grid-template-columns:1fr}
+  .v91-stats{grid-template-columns:1fr 1fr}
+  .v91-notice-list li:nth-child(n+3){display:none}
+  .v91-cta{padding:24px}
+  .v91-section{padding:42px 0}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+<div class="v91-sticky-wrap">
+  <div class="v91-notice">
+    <div class="v91-container v91-notice-inner">
+      <span class="v91-notice-tag">官方发布</span>
+      <ul class="v91-notice-list">
+        <li>「91cm 秋冬穿搭企划」第 3 集上线，4K 高清正版首发</li>
+        <li>创作者扶持计划报名开启，首批 120 个名额</li>
+        <li>官方投票：年度最受欢迎影像作品进入复选</li>
+      </ul>
+      <a class="v91-notice-more" href="#v91-news">全部动态 →</a>
+    </div>
+  </div>
+  <header class="v91-header">
+    <div class="v91-container v91-header-inner">
+      <a class="v91-logo" href="#v91-top">
+        <span class="v91-logo-mark">91</span>
+        <span class="v91-logo-text"><b>91cm</b><span>官方视频</span></span>
+      </a>
+      <nav class="v91-nav" aria-label="主导航">
+        <a href="#v91-hero">品牌首页</a>
+        <a href="#v91-parse">关键词解析</a>
+        <a href="#v91-focus">焦点内容</a>
+        <a href="#v91-topics">专题企划</a>
+        <a href="#v91-authors">创作者</a>
+        <a href="#v91-rank">数据榜单</a>
+        <a href="#v91-faq">帮助中心</a>
+      </nav>
+      <div class="v91-header-tools">
+        <div class="v91-search">
+          <input id="v91SearchInput" type="search" placeholder="搜索穿搭 / 影像 / 创作者" aria-label="站内搜索">
+          <button id="v91SearchBtn" aria-label="搜索">⌕</button>
+          <div class="v91-search-hint" id="v91SearchHint"></div>
+        </div>
+        <button class="v91-btn v91-btn-primary" id="v91SubmitBtn">投稿</button>
+        <button class="v91-burger" id="v91Burger" aria-label="展开菜单"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="v91-mobile-nav v91-container" id="v91MobileNav">
+    <div class="v91-mobile-search">
+      <input id="v91MobileSearch" type="search" placeholder="搜索内容或创作者">
+      <button class="v91-btn v91-btn-primary" id="v91MobileSearchBtn">搜</button>
+    </div>
+    <a href="#v91-hero">品牌首页</a>
+    <a href="#v91-parse">关键词解析</a>
+    <a href="#v91-focus">焦点内容</a>
+    <a href="#v91-topics">专题企划</a>
+    <a href="#v91-authors">创作者</a>
+    <a href="#v91-rank">数据榜单</a>
+    <a href="#v91-faq">帮助中心</a>
+  </div>
+</div>
+
+<main id="v91-top">
+  <!-- 首屏 -->
+  <section class="v91-hero" id="v91-hero">
+    <div class="v91-container v91-hero-grid">
+      <div>
+        <span class="v91-hero-eyebrow">● 91cm 官方网站 · 原创高清视频品牌</span>
+        <h1>91cm <em>官方视频社区</em><br>让每一厘米都成为风格</h1>
+        <p class="v91-hero-lead">
+          91cm 是专注于时尚穿搭与生活影像的企业级视频平台。我们深耕垂直领域，以原创、正版、高清为内容底线，为创作者搭建可持续的内容生态，把真实的日常穿成有力量的故事。
+        </p>
+        <div class="v91-hero-actions">
+          <a class="v91-btn v91-btn-primary" href="#v91-focus">▶ 观看焦点内容</a>
+          <a class="v91-btn v91-btn-ghost" href="#v91-authors">认识创作者</a>
+          <button class="v91-btn v91-btn-ghost" id="v91ShareHero">分享官网</button>
+        </div>
+        <div class="v91-stats">
+          <div class="v91-stat"><b>2,860+</b><span>原创高清视频</span></div>
+          <div class="v91-stat"><b>418位</b><span>签约创作者</span></div>
+          <div class="v91-stat"><b>96.4%</b><span>社区口碑好评</span></div>
+        </div>
+      </div>
+      <div class="v91-hero-visual">
+        <div class="v91-hero-frame">
+          <svg viewBox="0 0 640 440" role="img" aria-label="91cm品牌首屏主视觉：城市天台上以卷尺为灵感的穿搭影像构图">
+            <defs>
+              <linearGradient id="v91HeroSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0d1b22"/><stop offset="0.55" stop-color="#12303a"/><stop offset="1" stop-color="#0a1118"/>
+              </linearGradient>
+              <linearGradient id="v91HeroCoat" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#00e5a0"/><stop offset="1" stop-color="#0c6d55"/>
+              </linearGradient>
+              <linearGradient id="v91HeroGlow" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#4f8cff" stop-opacity="0.5"/><stop offset="1" stop-color="#00e5a0" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="440" fill="url(#v91HeroSky)"/>
+            <circle cx="498" cy="112" r="66" fill="#123a2c" opacity="0.9"/>
+            <circle cx="498" cy="112" r="40" fill="#00e5a0" opacity="0.35"/>
+            <path d="M0 300 L92 250 L156 288 L238 232 L322 292 L410 244 L500 296 L580 258 L640 300 L640 440 L0 440 Z" fill="#0a1219"/>
+            <g opacity="0.55" fill="#16242e">
+              <rect x="42" y="196" width="58" height="150"/><rect x="112" y="232" width="44" height="114"/>
+              <rect x="512" y="212" width="52" height="134"/><rect x="576" y="248" width="40" height="98"/>
+            </g>
+            <g stroke="#00e5a0" stroke-width="2" opacity="0.7">
+              <path d="M210 150 L210 330" stroke-dasharray="6 8"/>
+              <path d="M222 150 L222 330" stroke-dasharray="2 8"/>
+            </g>
+            <g fill="#00e5a0" opacity="0.85">
+              <rect x="204" y="160" width="24" height="3"/><rect x="204" y="200" width="18" height="3"/>
+              <rect x="204" y="240" width="24" height="3"/><rect x="204" y="280" width="14" height="3"/>
+              <rect x="204" y="318" width="24" height="3"/>
+            </g>
+            <g transform="translate(300 148)">
+              <circle cx="60" cy="24" r="22" fill="#e9d6c3"/>
+              <path d="M38 24 a22 22 0 0 1 44 0 v-6 a22 22 0 0 0 -44 0 z" fill="#2b2320"/>
+              <path d="M34 60 q26 -16 52 0 l14 128 h-80 z" fill="url(#v91HeroCoat)"/>
+              <path d="M34 78 l-24 74 16 8 20 -60 z" fill="#0c6d55"/>
+              <path d="M86 78 l24 74 -16 8 -20 -60 z" fill="#0c6d55"/>
+              <rect x="48" y="188" width="16" height="96" rx="7" fill="#16242e"/>
+              <rect x="76" y="188" width="16" height="96" rx="7" fill="#16242e"/>
+            </g>
+            <rect x="0" y="0" width="640" height="440" fill="url(#v91HeroGlow)" opacity="0.35"/>
+            <g font-family="sans-serif" fill="#00e5a0">
+              <text x="36" y="62" font-size="13" letter-spacing="5" opacity="0.85">91CM ORIGINAL</text>
+              <text x="36" y="86" font-size="10" letter-spacing="2" opacity="0.5">FASHION FILM · 4K</text>
+            </g>
+          </svg>
+        </div>
+        <div class="v91-hero-badge">
+          <span class="v91-live-dot"></span>
+          <div><b>今日 14:00 直播</b><span>秋冬叠穿实录 · 品牌官方直播间</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词解析 -->
+  <section class="v91-section v91-parse" id="v91-parse">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Brand Insight</div>
+          <h2>读懂 <span>91cm</span>：一个视频品牌的内容逻辑</h2>
+          <p>从品牌命名到内容标准，从社区运营到行业观察，完整了解 91cm 官方网站的价值主张。</p>
+        </div>
+      </div>
+      <div class="v91-parse-grid">
+        <div>
+          <h3>一、“91cm”这个名字，为什么值得被记住</h3>
+          <p>91cm 并不是一个刻意堆砌的字数概念，它在品牌创立之初就有一个具体的来源：团队在测量不同身高人群的穿搭比例时发现，腰线上下 91 厘米的落差，往往决定了一套衣服“合不合身”的第一观感。这个细节后来成为品牌的命名，也成为我们选片的第一标尺——一条视频是否值得被推荐，先看它是否尊重真实的穿着场景与真实的人。</p>
+          <p>作为一家持续运营的<b>视频品牌</b>，91cm 官方网站把“真实、专业、值得信赖”写在内容守则的第一条。我们不追逐夸张的滤镜和过度的修饰，而是把镜头交给普通人的衣橱、通勤路、周末市集和工作台。企业希望传达的价值观很朴素：<b>风格可以学习，但不必被复制</b>。这种立场让 91cm 在众多同质化内容里形成了清晰的识别度，也让社区里的创作者愿意长期留下来。</p>
+          <h3>二、内容生态：从一条竖屏短片到完整的创作链路</h3>
+          <p>91cm 的内容生态由三条主线构成。第一条是<b>官方企划</b>，由品牌内容团队主导，按季度推出主题系列，比如本季的“秋冬叠穿实录”与“通勤三件套”；第二条是<b>创作者投稿</b>，签约作者与开放投稿并行，经过编辑初审、画质校验与版权核验后进入推荐池；第三条是<b>社区共创</b>，包括穿搭挑战、年度投票、线下观影会等。</p>
+          <p>平台对画质的要求是硬性的：投稿基础线为 1080P，重点企划统一 4K 采集与二次调色，音频要求人声清晰、环境音不压主线。为了降低创作门槛，官方网站提供了脚本模板、分镜清单与调色 LUT 下载，创作者可以直接在投稿弹窗里提交成片链接或素材包。审核周期通常为 3 到 5 个工作日，通过后会同步生成封面、简介、标签与作者档案，进入内容库统一分发。</p>
+          <h3>三、垂直领域的深耕方式：把穿搭讲成生活方法</h3>
+          <p>很多用户第一次打开 91cm，会以为这里只是一个穿搭展示站。实际上，穿搭只是入口，我们更关心衣服背后的人如何生活。因此内容被拆成“场景 + 方法 + 情绪”三层：场景回答“穿去哪里”，方法回答“为什么这样搭”，情绪回答“穿完感觉怎么样”。一条优秀的 91cm 视频，通常能在三分钟内讲清楚一个小问题，比如“肩宽的女生怎么选外套领型”“预算五百如何配齐一周通勤”“秋冬如何用三件单品做出七套组合”。</p>
+          <p>在<b>垂直领域</b>的持续深耕，让平台积累了可检索、可复用的内容资产：尺码对照表、面料保养指南、色彩搭配案例库、不同城市的通勤穿搭地图。这些内容不依赖短期热点，而是靠时间沉淀口碑，成为用户心中搜索“穿搭方法”时的首选入口。企业相信，<b>精品内容</b>的生命周期远长于流量峰值，这也是 91cm 愿意把预算投入长线企划的原因。</p>
+          <h3>四、社区与责任：让创作者被看见，让用户被尊重</h3>
+          <p>91cm 的社区规则写得很直白：不鼓励比较身材，不发布未经授权的他人影像，不诱导消费。我们希望社区是包容的，不同身高、体型、预算、职业的人，都能在这里找到可参考的内容。为此平台设置了“多元身形”专题标签，并为新手创作者提供流量扶持与一对一内容诊断，帮助他们在 30 天内完成从“会拍”到“会讲”的过渡。</p>
+          <p>社会责任则体现在两件小事上：一是每年开放免费的内容制作公开课，向高校学生与自由职业者开放；二是与公益机构合作，把闲置衣物改造教程做成系列影像，鼓励延长衣物使用寿命。这些动作不会带来直接收益，但它们构成了品牌可信度的一部分。91cm 官方网站会继续记录、继续更新，把“陪伴创作者成长”从口号变成可以查证的内容日志。</p>
+        </div>
+        <aside class="v91-parse-aside">
+          <h3>品牌关键词速览</h3>
+          <ul class="v91-parse-list">
+            <li><i>01</i><span>官方网站 · 原创正版高清内容统一发布</span></li>
+            <li><i>02</i><span>企业级内容生态，418 位签约创作者</span></li>
+            <li><i>03</i><span>深耕时尚穿搭垂直领域，行业领先的画质标准</span></li>
+            <li><i>04</i><span>值得信赖的社区规则与版权核验流程</span></li>
+            <li><i>05</i><span>持续运营六年，品牌故事与用户口碑并行</span></li>
+            <li><i>06</i><span>官方投票 · 比赛报名 · 投稿上传一站式</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 + 视频流 -->
+  <section class="v91-section" id="v91-focus">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Featured</div>
+          <h2>本期焦点：<span>秋冬叠穿</span>的 91 种可能</h2>
+          <p>编辑团队从近两周投稿中选出四组内容，兼顾可操作性与影像质感。</p>
+        </div>
+        <a class="v91-btn v91-btn-ghost" href="#v91-topics">查看全部企划</a>
+      </div>
+      <div class="v91-focus-grid">
+        <article class="v91-focus-main">
+          <svg viewBox="0 0 640 360" role="img" aria-label="秋冬叠穿实录封面：三层大衣与围巾在灰蓝背景下的人物全身构图">
+            <defs>
+              <linearGradient id="v91FcBg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#1b2734"/><stop offset="1" stop-color="#0f151d"/>
+              </linearGradient>
+              <linearGradient id="v91FcCoat" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#4f8cff"/><stop offset="1" stop-color="#26467a"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#v91FcBg)"/>
+            <circle cx="120" cy="86" r="46" fill="#22364e" opacity="0.8"/>
+            <path d="M0 300 H640 V360 H0 Z" fill="#0b1118"/>
+            <g transform="translate(240 60)">
+              <circle cx="80" cy="30" r="27" fill="#e8cfb6"/>
+              <path d="M53 30 a27 27 0 0 1 54 0 v-9 a27 27 0 0 0 -54 0 z" fill="#2a201b"/>
+              <path d="M48 76 q32 -18 64 0 l20 150 h-104 z" fill="url(#v91FcCoat)"/>
+              <path d="M60 84 l-20 26 14 12 18 -22 z" fill="#1d3557"/>
+              <path d="M100 84 l20 26 -14 12 -18 -22 z" fill="#1d3557"/>
+              <rect x="62" y="86" width="36" height="10" rx="5" fill="#00e5a0" opacity="0.85"/>
+              <rect x="66" y="226" width="18" height="70" rx="8" fill="#151d26"/>
+              <rect x="96" y="226" width="18" height="70" rx="8" fill="#151d26"/>
+            </g>
+            <g font-family="sans-serif" fill="#cfe0ff">
+              <rect x="28" y="28" width="112" height="26" rx="13" fill="#0f2540" opacity="0.9"/>
+              <text x="43" y="46" font-size="11" letter-spacing="2">EP.03 4K</text>
+            </g>
+          </svg>
+          <div class="v91-focus-body">
+            <div class="v91-tags"><span class="v91-tag">官方企划</span><span class="v91-tag blue">秋冬穿搭</span><span class="v91-tag">高清正版</span></div>
+            <h3>秋冬叠穿实录 EP.03：三件单品，七种通勤组合</h3>
+            <p>用一件羊毛西装、一件高领打底、一条直筒裤，拆解一周五个工作日的搭配逻辑，并附上面料保暖指数对照表，适合预算有限但希望穿得体面的通勤族。</p>
+            <div class="v91-meta"><span>91cm 官方编辑部</span><span>12.6 万播放</span><span>1.8 万点赞</span><span>2026-11-18</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 点赞 <b>18,204</b></button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+              <button class="v91-act" data-comment>💬 评论</button>
+              <button class="v91-act" data-copy>⧉ 复制链接</button>
+            </div>
+          </div>
+        </article>
+        <div class="v91-focus-side">
+          <article class="v91-focus-item">
+            <div class="v91-focus-thumb">
+              <svg viewBox="0 0 184 136" role="img" aria-label="肩宽选款指南缩略封面：领型对照简图">
+                <rect width="184" height="136" fill="#12242c"/>
+                <path d="M32 116 L72 34 L112 116 Z" fill="#0d3a33"/>
+                <path d="M104 116 L132 50 L160 116 Z" fill="#184f6b"/>
+                <circle cx="72" cy="30" r="10" fill="#00e5a0" opacity="0.8"/>
+                <circle cx="132" cy="46" r="8" fill="#4f8cff" opacity="0.8"/>
+              </svg>
+            </div>
+            <div>
+              <h3>肩宽女生的领型选择：6 组对照实拍</h3>
+              <p>圆领、V 领、方领、翻领逐一对镜演示，附测量方法与避坑清单。</p>
+            </div>
+          </article>
+          <article class="v91-focus-item">
+            <div class="v91-focus-thumb">
+              <svg viewBox="0 0 184 136" role="img" aria-label="五百元通勤衣橱缩略封面：预算分配饼图与衣架插画">
+                <rect width="184" height="136" fill="#1a1a26"/>
+                <circle cx="62" cy="68" r="34" fill="#00e5a0" opacity="0.28"/>
+                <path d="M62 68 L62 34 A34 34 0 0 1 92 86 Z" fill="#ffcf5c" opacity="0.75"/>
+                <g stroke="#4f8cff" stroke-width="3" fill="none">
+                  <path d="M124 46 l14 -12 14 12"/><path d="M138 34 v52"/><path d="M124 86 h28"/>
+                </g>
+              </svg>
+            </div>
+            <div>
+              <h3>预算五百，如何配齐一周通勤衣橱</h3>
+              <p>把钱花在版型和面料上，创作者给出可执行的购买顺序。</p>
+            </div>
+          </article>
+          <article class="v91-focus-item">
+            <div class="v91-focus-thumb">
+              <svg viewBox="0 0 184 136" role="img" aria-label="面料保养记录缩略封面：织物纹理与洗涤标识">
+                <rect width="184" height="136" fill="#20201a"/>
+                <g stroke="#c9a06a" stroke-width="1.5" opacity="0.7">
+                  <path d="M0 26 H184 M0 46 H184 M0 66 H184 M0 86 H184 M0 106 H184"/>
+                  <path d="M36 0 V136 M76 0 V136 M116 0 V136 M156 0 V136"/>
+                </g>
+                <rect x="60" y="44" width="64" height="48" rx="8" fill="#0f1116" opacity="0.85"/>
+                <text x="76" y="74" font-size="16" fill="#ffcf5c" font-family="sans-serif">30°</text>
+              </svg>
+            </div>
+            <div>
+              <h3>羊毛、羊绒、摇粒绒：三种面料的保养差在哪</h3>
+              <p>从洗涤水温到晾晒方式，用实测对比说明差异。</p>
+            </div>
+          </article>
+          <article class="v91-focus-item">
+            <div class="v91-focus-thumb">
+              <svg viewBox="0 0 184 136" role="img" aria-label="城市通勤地图缩略封面：城市街区与路线插画">
+                <rect width="184" height="136" fill="#101c2a"/>
+                <g stroke="#2b4a6b" stroke-width="6" opacity="0.8">
+                  <path d="M0 40 H184 M0 96 H184 M48 0 V136 M132 0 V136"/>
+                </g>
+                <path d="M20 110 L60 70 L112 92 L164 40" stroke="#00e5a0" stroke-width="3" fill="none" stroke-dasharray="7 6"/>
+                <circle cx="164" cy="40" r="6" fill="#00e5a0"/>
+              </svg>
+            </div>
+            <div>
+              <h3>北京、上海、成都：三城通勤穿搭地图</h3>
+              <p>气温、湿度与通勤方式不同，衣橱策略也不一样。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="v91-sec-head" style="margin-top:52px">
+        <div>
+          <div class="v91-kicker">Latest Videos</div>
+          <h2>热门视频流：<span>创作者</span>本周新作</h2>
+          <p>每一条都经过画质校验与版权核验，可在官方网站直接观看高清正版。</p>
+        </div>
+      </div>
+      <div class="v91-videos">
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="极简衣橱一年记录封面：阳台挂衣与晨光构图">
+              <rect width="320" height="180" fill="#1b2430"/>
+              <rect x="0" y="0" width="320" height="80" fill="#243449"/>
+              <circle cx="256" cy="50" r="30" fill="#ffcf5c" opacity="0.35"/>
+              <path d="M40 80 v90 M280 80 v90" stroke="#4a5a70" stroke-width="4"/>
+              <g fill="#00e5a0" opacity="0.75">
+                <rect x="66" y="88" width="26" height="66" rx="6"/>
+                <rect x="104" y="96" width="26" height="58" rx="6" opacity="0.6"/>
+                <rect x="142" y="84" width="26" height="70" rx="6" opacity="0.85"/>
+                <rect x="180" y="100" width="26" height="54" rx="6" opacity="0.5"/>
+              </g>
+              <rect x="0" y="160" width="320" height="20" fill="#0d1319"/>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">08:42</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">生活方式</span><span class="v91-tag blue">月度记录</span></div>
+            <h3>一年只留 30 件衣服之后，我的衣橱变成了什么样</h3>
+            <p>创作者用十二个月记录极简衣橱的真实成本，包含舍弃清单与复购率统计。</p>
+            <div class="v91-meta"><span>林知夏</span><span>9.2 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 6,120</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="旧衣改造工作台封面：缝纫机与布片插画">
+              <rect width="320" height="180" fill="#241d17"/>
+              <rect x="0" y="120" width="320" height="60" fill="#3a2c20"/>
+              <g fill="#c9a06a">
+                <rect x="60" y="60" width="90" height="46" rx="8"/>
+                <rect x="72" y="106" width="14" height="26"/>
+                <rect x="126" y="106" width="14" height="26"/>
+              </g>
+              <circle cx="212" cy="88" r="26" fill="#00e5a0" opacity="0.6"/>
+              <path d="M212 62 v52 M186 88 h52" stroke="#0f1116" stroke-width="3"/>
+              <path d="M250 140 l30 -34 18 14 -30 34 z" fill="#4f8cff" opacity="0.75"/>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">11:20</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">手作DIY</span><span class="v91-tag blue">环保</span></div>
+            <h3>把旧衬衫改成托特包：零基础也能上手的改造教程</h3>
+            <p>从裁剪到缝合，六步完成，附尺寸图与常见翻车点提醒。</p>
+            <div class="v91-meta"><span>苏禾手作</span><span>7.8 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 5,430</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="男装版型测评封面：西装肩线与尺子构图">
+              <rect width="320" height="180" fill="#121a22"/>
+              <path d="M0 150 H320 V180 H0 Z" fill="#0a0f14"/>
+              <g transform="translate(96 26)">
+                <circle cx="64" cy="20" r="18" fill="#e2c7ad"/>
+                <path d="M40 52 q24 -14 48 0 l14 74 h-76 z" fill="#2f4763"/>
+                <path d="M52 58 l-12 20 10 8 12 -18 z" fill="#22354b"/>
+                <path d="M76 58 l12 20 -10 8 -12 -18 z" fill="#22354b"/>
+                <rect x="58" y="126" width="12" height="34" fill="#1a2530"/>
+                <rect x="74" y="126" width="12" height="34" fill="#1a2530"/>
+              </g>
+              <g stroke="#ffcf5c" stroke-width="2" opacity="0.9">
+                <path d="M240 40 v110"/><path d="M234 48 h12 M234 76 h12 M234 104 h12 M234 132 h12"/>
+              </g>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">09:05</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">深度测评</span><span class="v91-tag blue">男装</span></div>
+            <h3>四家快时尚西装实测：肩线偏差最大到 2.3 厘米</h3>
+            <p>同一尺码横向对比，量化肩宽、袖长与面料克重，给出选购优先级。</p>
+            <div class="v91-meta"><span>周牧评测</span><span>6.4 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 4,870</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="城市周末市集封面：摊位与人群剪影">
+              <rect width="320" height="180" fill="#2a1f2e"/>
+              <rect x="0" y="130" width="320" height="50" fill="#1a1220"/>
+              <g fill="#6b4a86">
+                <rect x="40" y="70" width="70" height="60"/>
+                <rect x="140" y="60" width="70" height="70"/>
+                <rect x="240" y="78" width="56" height="52"/>
+              </g>
+              <g fill="#ffcf5c" opacity="0.8">
+                <rect x="52" y="82" width="46" height="6"/><rect x="152" y="74" width="46" height="6"/>
+                <rect x="250" y="90" width="36" height="6"/>
+              </g>
+              <g fill="#e9d6c3" opacity="0.6">
+                <circle cx="86" cy="146" r="9"/><circle cx="176" cy="146" r="9"/><circle cx="260" cy="146" r="9"/>
+              </g>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">06:58</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">城市探索</span><span class="v91-tag blue">在地文化</span></div>
+            <h3>周末市集摆摊日记：一件衣服从被看到被买走的四小时</h3>
+            <p>以摊主视角记录真实成交过程，聊聊定价、陈列与顾客沟通。</p>
+            <div class="v91-meta"><span>阿禾在这</span><span>5.1 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 3,960</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="色彩搭配案例库封面：撞色色块与调色盘">
+              <rect width="320" height="180" fill="#141a1a"/>
+              <rect x="30" y="30" width="80" height="80" rx="10" fill="#00e5a0"/>
+              <rect x="120" y="30" width="80" height="80" rx="10" fill="#4f8cff"/>
+              <rect x="210" y="30" width="80" height="80" rx="10" fill="#ffcf5c"/>
+              <rect x="30" y="122" width="260" height="28" rx="8" fill="#243040"/>
+              <circle cx="60" cy="136" r="6" fill="#e9d6c3"/><circle cx="84" cy="136" r="6" fill="#00e5a0"/>
+              <circle cx="108" cy="136" r="6" fill="#4f8cff"/><circle cx="132" cy="136" r="6" fill="#ffcf5c"/>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">14:12</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">知识科普</span><span class="v91-tag blue">色彩</span></div>
+            <h3>看懂色彩四季型：为什么同样的颜色有人显白有人显土</h3>
+            <p>用十五组真实对比说明冷暖和明度差异，附自测步骤。</p>
+            <div class="v91-meta"><span>颜色研究所</span><span>13.7 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 9,240</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="v91-video-card">
+          <div class="v91-video-cover">
+            <svg viewBox="0 0 320 180" role="img" aria-label="创作者幕后封面：打光设备与分镜板">
+              <rect width="320" height="180" fill="#161d24"/>
+              <circle cx="82" cy="60" r="30" fill="#ffcf5c" opacity="0.6"/>
+              <path d="M62 60 h40 M82 40 v40" stroke="#161d24" stroke-width="3"/>
+              <rect x="140" y="40" width="120" height="80" rx="8" fill="#243040"/>
+              <path d="M152 100 l26 -30 22 22 18 -16 20 24" stroke="#00e5a0" stroke-width="3" fill="none"/>
+              <rect x="40" y="140" width="240" height="8" rx="4" fill="#2b3a4c"/>
+            </svg>
+            <span class="v91-play">▶</span><span class="v91-video-dur">10:30</span>
+          </div>
+          <div class="v91-video-body">
+            <div class="v91-tags"><span class="v91-tag">创作幕后</span><span class="v91-tag blue">教程干货</span></div>
+            <h3>一个人拍穿搭视频：三灯布光与分镜模板全公开</h3>
+            <p>从机位到剪辑节奏逐步拆解，适合刚开始做视频的创作者。</p>
+            <div class="v91-meta"><span>光与帧</span><span>8.6 万播放</span></div>
+            <div class="v91-actions">
+              <button class="v91-act" data-like>♡ 5,780</button>
+              <button class="v91-act" data-fav>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题 -->
+  <section class="v91-section" id="v91-topics">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Programs</div>
+          <h2>专题企划：<span>内容生态</span>的长期主义</h2>
+          <p>品牌每年投入固定预算做长线专题，欢迎创作者报名参与共创。</p>
+        </div>
+        <button class="v91-btn v91-btn-ghost" id="v91VoteBtn">参与年度投票</button>
+      </div>
+      <div class="v91-topics">
+        <article class="v91-topic featured">
+          <div>
+            <div class="v91-topic-head">
+              <h3>秋冬叠穿实录</h3>
+              <span class="v91-status">更新中 · EP.03</span>
+            </div>
+            <p>91cm 官方年度重点企划，以真实通勤场景为样本，记录不同城市、不同职业的人如何用有限衣橱完成一周搭配。全部内容 4K 采集，可直接在官方网站观看高清正版。</p>
+            <ul class="v91-topic-list">
+              <li>EP.01 从一件白衬衫开始的七天</li>
+              <li>EP.02 面料厚度与体感温度对照实验</li>
+              <li>EP.03 三件单品的七种通勤组合</li>
+            </ul>
+          </div>
+          <div class="v91-topic-featured-visual">
+            <svg viewBox="0 0 560 350" role="img" aria-label="秋冬叠穿实录专题主视觉：三层衣物剖面与温度刻度尺">
+              <defs>
+                <linearGradient id="v91Tp1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#14304a"/><stop offset="1" stop-color="#0c1620"/>
+                </linearGradient>
+              </defs>
+              <rect width="560" height="350" fill="url(#v91Tp1)"/>
+              <g opacity="0.9">
+                <path d="M60 260 q50 -120 120 -120 q70 0 120 120 z" fill="#00e5a0" opacity="0.35"/>
+                <path d="M120 260 q40 -86 96 -86 q56 0 96 86 z" fill="#4f8cff" opacity="0.35"/>
+                <path d="M180 260 q28 -54 66 -54 q38 0 66 54 z" fill="#ffcf5c" opacity="0.35"/>
+              </g>
+              <g stroke="#8fb6d8" stroke-width="2" opacity="0.7">
+                <path d="M420 60 v240"/>
+                <path d="M412 80 h16 M412 120 h16 M412 160 h16 M412 200 h16 M412 240 h16 M412 280 h16"/>
+              </g>
+              <g fill="#cfe4f7" font-family="sans-serif" font-size="11">
+                <text x="444" y="84">0°C</text><text x="444" y="164">10°C</text><text x="444" y="284">25°C</text>
+              </g>
+              <text x="36" y="44" fill="#00e5a0" font-size="12" letter-spacing="4" font-family="sans-serif">LAYERING 2026</text>
+            </svg>
+          </div>
+        </article>
+        <article class="v91-topic">
+          <div class="v91-topic-head">
+            <h3>多元身形计划</h3>
+            <span class="v91-status">招募中</span>
+          </div>
+          <p>面向不同身高与体型的穿搭内容征集，让参考样本更接近真实人群。</p>
+          <ul class="v91-topic-list">
+            <li>150cm 也可穿的长外套清单</li>
+            <li>大码版型的肩袖修改方案</li>
+            <li>孕产期的过渡穿搭记录</li>
+          </ul>
+        </article>
+        <article class="v91-topic">
+          <div class="v91-topic-head">
+            <h3>衣橱可持续</h3>
+            <span class="v91-status plan">策划中 · 12月上线</span>
+          </div>
+          <p>聚焦旧衣改造、修补与二手流转，讨论衣服的第二段生命。</p>
+          <ul class="v91-topic-list">
+            <li>一件风衣的三次改造实录</li>
+            <li>修补工具入门：针线与补片</li>
+            <li>二手市集的可信定价方法</li>
+          </ul>
+        </article>
+        <article class="v91-topic">
+          <div class="v91-topic-head">
+            <h3>城市影像档案</h3>
+            <span class="v91-status">更新中 · 第 8 期</span>
+          </div>
+          <p>以城市为单位记录街头穿搭与在地店铺，形成可检索的城市风格地图。</p>
+          <ul class="v91-topic-list">
+            <li>成都：玉林路的慢节奏穿搭</li>
+            <li>上海：安福路周末观察</li>
+            <li>西安：城墙下的大衣色彩</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="v91-section" id="v91-authors">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Creators</div>
+          <h2>创作者矩阵：<span>418 位</span>长期同行者</h2>
+          <p>以下为部分签约创作者，点击可查看档案与作品清单。</p>
+        </div>
+      </div>
+      <div class="v91-authors">
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#00e5a0,#0f8a67)">林</div>
+          <div class="v91-author-info">
+            <h3>林知夏 <small>签约创作者</small></h3>
+            <div class="v91-author-field">擅长：极简衣橱 / 生活方式记录</div>
+            <p class="v91-author-desc">六年前开始记录“每天穿什么”，习惯用固定机位拍摄早晨的衣橱选择。她的内容不追求华丽，而是把面料、版型与通勤距离讲清楚，被很多上班族当作穿搭参考。坚持每月复盘一次购买决策，擅长把预算讲透。</p>
+            <div class="v91-author-nums"><span>作品 186</span><span>粉丝 32.4 万</span><span>赞藏 96.8 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="林知夏">查看档案 →</a>
+          </div>
+        </article>
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#4f8cff,#26467a);color:#eaf2ff">周</div>
+          <div class="v91-author-info">
+            <h3>周牧评测 <small>签约创作者</small></h3>
+            <div class="v91-author-field">擅长：男装测评 / 版型量化</div>
+            <p class="v91-author-desc">前服装质检从业者，习惯用卡尺、克重仪和温差计做内容。他会在同一条视频里横向对比多个品牌的同尺码单品，把“合不合身”变成可量化的数据。内容节奏偏理性，但在男装选购人群中口碑极高，评论区常被称为“避坑指南”。</p>
+            <div class="v91-author-nums"><span>作品 142</span><span>粉丝 27.9 万</span><span>赞藏 81.3 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="周牧评测">查看档案 →</a>
+          </div>
+        </article>
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#ffcf5c,#c98a5c);color:#2a1a06">苏</div>
+          <div class="v91-author-info">
+            <h3>苏禾手作 <small>认证作者</small></h3>
+            <div class="v91-author-field">擅长：旧衣改造 / 手作DIY</div>
+            <p class="v91-author-desc">服装设计专业毕业后在社区开了一间小型改造工作室。她的视频节奏很慢，镜头总是先给到布料的纹理，再讲裁剪逻辑。擅长把复杂工艺拆成零基础可完成的步骤，旧衬衫、牛仔裤、围巾都能在她的镜头里获得第二次生命。</p>
+            <div class="v91-author-nums"><span>作品 98</span><span>粉丝 18.6 万</span><span>赞藏 52.7 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="苏禾手作">查看档案 →</a>
+          </div>
+        </article>
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#a98bff,#5c3fa8);color:#f2ecff">颜</div>
+          <div class="v91-author-info">
+            <h3>颜色研究所 <small>签约创作者</small></h3>
+            <div class="v91-author-field">擅长：色彩科普 / 搭配方法论</div>
+            <p class="v91-author-desc">由两位视觉设计师共同运营的账号，专注把色彩理论讲成人话。内容大量使用实物对比、色卡与自然光测试，帮助观众建立“先判断冷暖再选颜色”的习惯。团队还维护着一份公开的色彩案例库，可在官方网站免费下载。</p>
+            <div class="v91-author-nums"><span>作品 121</span><span>粉丝 24.1 万</span><span>赞藏 73.5 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="颜色研究所">查看档案 →</a>
+          </div>
+        </article>
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#6fd8c0,#1c6f5c);color:#06251c">阿</div>
+          <div class="v91-author-info">
+            <h3>阿禾在这 <small>认证作者</small></h3>
+            <div class="v91-author-field">擅长：城市探索 / 在地文化</div>
+            <p class="v91-author-desc">常年穿梭于城市市集与小店之间，用第一视角记录真实的交易与交流。她的内容常常从一件衣服出发，最后落到一个城市的生活节奏。镜头语言松弛，善于捕捉摊位上的小细节，是官方网站“城市影像档案”专题的常驻作者。</p>
+            <div class="v91-author-nums"><span>作品 76</span><span>粉丝 12.8 万</span><span>赞藏 34.9 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="阿禾在这">查看档案 →</a>
+          </div>
+        </article>
+        <article class="v91-author">
+          <div class="v91-avatar" style="background:linear-gradient(140deg,#8fb6d8,#345270);color:#eaf2ff">光</div>
+          <div class="v91-author-info">
+            <h3>光与帧 <small>签约创作者</small></h3>
+            <div class="v91-author-field">擅长：拍摄教程 / 创作幕后</div>
+            <p class="v91-author-desc">独立影像摄影师，主教小团队如何低成本完成高质量拍摄。她的教程以“可复用”著称：布光图、分镜表、剪辑节奏都会给到具体参数。很多人第一次拍穿搭视频，就是从她的一张三灯示意图开始的，官方网站的投稿页也收录了她的模板。</p>
+            <div class="v91-author-nums"><span>作品 64</span><span>粉丝 16.3 万</span><span>赞藏 41.6 万</span></div>
+            <a class="v91-author-more" href="#v91-authors" data-author="光与帧">查看档案 →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单 + 评论 -->
+  <section class="v91-section" id="v91-rank">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Ranking & Reviews</div>
+          <h2>数据榜单与<span>社区口碑</span></h2>
+          <p>榜单按播放、互动与收藏加权计算，每周一在官方网站更新。</p>
+        </div>
+      </div>
+      <div class="v91-rank-wrap">
+        <div class="v91-rank">
+          <h3>🔥 本周热度榜</h3>
+          <ol>
+            <li><span class="v91-rank-no">1</span><span>看懂色彩四季型<small>13.7 万播放 · 颜色研究所</small></span></li>
+            <li><span class="v91-rank-no">2</span><span>秋冬叠穿实录 EP.03<small>12.6 万播放 · 官方编辑部</small></span></li>
+            <li><span class="v91-rank-no">3</span><span>一个人拍穿搭视频<small>8.6 万播放 · 光与帧</small></span></li>
+            <li><span class="v91-rank-no">4</span><span>一年只留 30 件衣服<small>9.2 万播放 · 林知夏</small></span></li>
+            <li><span class="v91-rank-no">5</span><span>四家快时尚西装实测<small>6.4 万播放 · 周牧评测</small></span></li>
+          </ol>
+        </div>
+        <div class="v91-rank">
+          <h3>🌱 新人潜力榜</h3>
+          <ol>
+            <li><span class="v91-rank-no">1</span><span>小个子通勤日志<small>新增粉丝 4,210</small></span></li>
+            <li><span class="v91-rank-no">2</span><span>南方回南天衣橱<small>新增粉丝 3,860</small></span></li>
+            <li><span class="v91-rank-no">3</span><span>皮具修补三十天<small>新增粉丝 3,120</small></span></li>
+            <li><span class="v91-rank-no">4</span><span>男士配饰入门<small>新增粉丝 2,940</small></span></li>
+            <li><span class="v91-rank-no">5</span><span>校园穿搭观察<small>新增粉丝 2,610</small></span></li>
+          </ol>
+        </div>
+        <div class="v91-rank">
+          <h3>💬 口碑榜</h3>
+          <ol>
+            <li><span class="v91-rank-no">1</span><span>面料保养指南<small>好评率 98.2%</small></span></li>
+            <li><span class="v91-rank-no">2</span><span>肩宽选款 6 组对照<small>好评率 97.5%</small></span></li>
+            <li><span class="v91-rank-no">3</span><span>预算五百配齐衣橱<small>好评率 96.9%</small></span></li>
+            <li><span class="v91-rank-no">4</span><span>旧衬衫改托特包<small>好评率 96.1%</small></span></li>
+            <li><span class="v91-rank-no">5</span><span>三城通勤地图<small>好评率 95.4%</small></span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="v91-sec-head" style="margin-top:52px">
+        <div>
+          <div class="v91-kicker">Community</div>
+          <h2>来自<span>社区</span>的真实评价</h2>
+          <p>评论来自官方网站注册用户，未经编辑筛选，仅做长度整理。</p>
+        </div>
+      </div>
+      <div class="v91-comments">
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#00e5a0">陈</div><b>陈小满</b><span>2026-11-19</span></div>
+          <p>看完色彩那期终于明白为什么我穿雾霾蓝总是显得没精神，原来不是颜色的问题，是我肤色偏暖。已经按视频里的方法重新整理了衣柜，<em>建议做成系列</em>。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#4f8cff;color:#eaf2ff">王</div><b>王工不加班</b><span>2026-11-18</span></div>
+          <p>男装那期测评很硬核，肩线偏差 2.3 厘米这个数据我第一次见人量化。希望以后能加一个袖长的对比，我这种手臂长的真的很难买。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#ffcf5c;color:#2a1a06">李</div><b>李一一</b><span>2026-11-17</span></div>
+          <p>旧衣改造那集跟着做了，成品比我预想的好看。就是缝合部分需要多练，视频里如果能加慢动作就好了。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#a98bff;color:#f2ecff">周</div><b>周末在家</b><span>2026-11-16</span></div>
+          <p>很喜欢 91cm 的社区氛围，没有人评价别人身材，评论区基本都在讨论搭配逻辑。作为官方网站能做到这一点挺难得的，会一直用。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#6fd8c0">赵</div><b>赵阿橙</b><span>2026-11-15</span></div>
+          <p>投了两条视频，三天就收到编辑反馈，给了很具体的机位建议，不是模板回复。这一点必须夸，愿意继续投稿。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#8fb6d8;color:#eaf2ff">林</div><b>林间风</b><span>2026-11-14</span></div>
+          <p>城市影像档案系列太合我口味了，成都那一期看到熟悉的街道差点认出来。希望下一期能来厦门。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#c98a5c;color:#2a1a06">吴</div><b>吴大柚</b><span>2026-11-13</span></div>
+          <p>整体很好，唯一建议是部分老视频清晰度还能再提升一下，尤其两年前的内容。画质是品牌口碑的一部分。</p>
+        </div>
+        <div class="v91-comment">
+          <div class="v91-comment-top"><div class="v91-comment-avatar" style="background:#0f8a67">黄</div><b>黄小果</b><span>2026-11-12</span></div>
+          <p>预算五百那期帮我省了不少钱，按顺序买真的没踩雷。已经把链接分享给办公室同事了，大家都说实用。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + 合作 -->
+  <section class="v91-section" id="v91-news">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Updates</div>
+          <h2>企业动态与<span>官方发布</span></h2>
+          <p>品牌资讯、内容更新与合作公告，统一在官方网站发布。</p>
+        </div>
+      </div>
+      <div class="v91-news">
+        <article class="v91-news-item">
+          <div class="v91-news-date">2026-11-20</div>
+          <h3>创作者扶持计划第三期开放报名</h3>
+          <p>面向 30 岁以下内容创作者，提供流量扶持、拍摄设备借用与编辑一对一诊断，首批 120 个名额。</p>
+        </article>
+        <article class="v91-news-item">
+          <div class="v91-news-date">2026-11-17</div>
+          <h3>官方网站播放器升级至 4K 自适应</h3>
+          <p>根据网络状况自动切换清晰度，收藏夹与历史记录同步逻辑同步优化，移动端加载速度提升约 40%。</p>
+        </article>
+        <article class="v91-news-item">
+          <div class="v91-news-date">2026-11-12</div>
+          <h3>与三家城市买手店达成内容合作</h3>
+          <p>联合制作“城市衣橱”系列，首站落地成都，后续将在上海、西安陆续展开线下观影与交流活动。</p>
+        </article>
+      </div>
+      <div class="v91-sec-head" style="margin-top:50px">
+        <div>
+          <div class="v91-kicker">Partners</div>
+          <h2>合作品牌与<span>伙伴</span></h2>
+        </div>
+      </div>
+      <div class="v91-partners">
+        <div class="v91-partner"><b>织言</b>面料供应商</div>
+        <div class="v91-partner"><b>青屿</b>城市买手店</div>
+        <div class="v91-partner"><b>拾间</b>改造工作室</div>
+        <div class="v91-partner"><b>帧光</b>影像设备伙伴</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + CTA -->
+  <section class="v91-section" id="v91-faq">
+    <div class="v91-container">
+      <div class="v91-sec-head">
+        <div>
+          <div class="v91-kicker">Help Center</div>
+          <h2>帮助中心：关于<span>91cm</span>官网的常见问题</h2>
+        </div>
+      </div>
+      <div class="v91-faq">
+        <details open>
+          <summary>91cm 官方网站的内容都是原创吗？</summary>
+          <p>平台所有官方企划内容均为原创制作，创作者投稿需通过原创声明与版权核验，二次剪辑、搬运素材会被驳回。我们为每条内容保留创作记录，并在页面标注作者与发布时间。</p>
+        </details>
+        <details>
+          <summary>如何成为签约创作者？需要满足什么条件？</summary>
+          <p>在投稿入口提交至少 3 条原创视频，画质不低于 1080P，内容方向与平台主题一致即可进入评估。编辑会在 5 个工作日内反馈，通过后进入签约流程，享受流量扶持与商业合作对接。</p>
+        </details>
+        <details>
+          <summary>投稿后多久能看到审核结果？</summary>
+          <p>常规审核周期为 3 到 5 个工作日。遇重点企划征集期可能延长至 7 个工作日，结果会通过站内信与投稿时填写的联系方式同步，请留意查收。</p>
+        </details>
+        <details>
+          <summary>视频下载与二次使用有哪些规定？</summary>
+          <p>官方网站提供部分内容的下载入口，仅供个人学习与非商业用途。如需商业授权、转载或二次剪辑，请通过联系页面提交申请，未经许可不得用于广告投放。</p>
+        </details>
+        <details>
+          <summary>年度投票和比赛报名的规则是什么？</summary>
+          <p>投票面向注册用户开放，每个账号每日限投 3 次，禁止刷票。比赛报名需提交完整作品与创作说明，评选由编辑评审与用户投票共同构成，结果在官方网站公示。</p>
+        </details>
+        <details>
+          <summary>社区对评论与互动有什么要求？</summary>
+          <p>我们鼓励讨论方法与经验，禁止身材羞辱、人身攻击与引流广告。违规内容会被折叠，多次违规将限制互动权限。希望这里一直是包容、真实的社区。</p>
+        </details>
+        <details>
+          <summary>如何联系品牌进行内容合作？</summary>
+          <p>可在联系页面填写合作类型与需求描述，商务团队会在 2 个工作日内回复。品牌联名、拍摄场地、创作者共创等合作均可提交，我们会根据内容匹配度安排后续沟通。</p>
+        </details>
+      </div>
+
+      <div class="v91-cta" style="margin-top:44px">
+        <div>
+          <h2>把你的穿搭故事，放进 91cm 的镜头里</h2>
+          <p>投稿入口全年开放，接受视频、图文与创作脚本。我们更看重你是否讲清楚了一个具体问题，而不是画面有多华丽。</p>
+        </div>
+        <div class="v91-cta-actions">
+          <button class="v91-btn v91-btn-primary" id="v91CtaSubmit">立即投稿</button>
+          <button class="v91-btn v91-btn-ghost" id="v91CtaCopy">复制官网链接</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="v91-footer">
+  <div class="v91-container">
+    <div class="v91-footer-grid">
+      <div class="v91-footer-brand">
+        <a class="v91-logo" href="#v91-top">
+          <span class="v91-logo-mark">91</span>
+          <span class="v91-logo-text"><b>91cm</b><span>官方视频</span></span>
+        </a>
+        <p>91cm 官方网站，专注时尚穿搭与生活影像的原创视频品牌。以高清正版内容、持续运营的创作者社区与值得信赖的行业标准，陪伴每一位普通人找到自己的风格。</p>
+      </div>
+      <div>
+        <h3>内容入口</h3>
+        <ul>
+          <li><a href="#v91-focus">焦点内容</a></li>
+          <li><a href="#v91-topics">专题企划</a></li>
+          <li><a href="#v91-rank">数据榜单</a></li>
+          <li><a href="#v91-authors">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>关于品牌</h3>
+        <ul>
+          <li><a href="#v91-parse">品牌解析</a></li>
+          <li><a href="#v91-news">企业动态</a></li>
+          <li><a href="#v91-faq">帮助中心</a></li>
+          <li><a href="#v91-faq">联系与投稿</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区规则</h3>
+        <ul>
+          <li>原创声明与版权核验</li>
+          <li>社区互动公约</li>
+          <li>内容安全说明</li>
+          <li>用户隐私保护</li>
+        </ul>
+      </div>
+    </div>
+    <div class="v91-footer-bottom">
+      <span>© 2026 91cm 官方网站 · 版权所有 · 持续运营中</span>
+      <span>品牌备案：91CM-BRAND-2026 · 内容备案号 2026001191</span>
+    </div>
+  </div>
+</footer>
+
+<button class="v91-top" id="v91Top" aria-label="回到顶部">↑</button>
+<div class="v91-toast" id="v91Toast"></div>
+
+<div class="v91-modal" id="v91Modal">
+  <div class="v91-modal-card">
+    <h3 id="v91ModalTitle">投稿到 91cm 官方网站</h3>
+    <p class="v91-modal-sub" id="v91ModalSub">填写基本信息，编辑会在 3 至 5 个工作日内回复。</p>
+    <div id="v91ModalForm">
+      <label for="v91Name">你的昵称</label>
+      <input id="v91Name" type="text" placeholder="例如：林知夏">
+      <label for="v91Kind">内容类型</label>
+      <input id="v91Kind" type="text" placeholder="穿搭教程 / 城市探索 / 旧衣改造">
+      <label for="v91Msg">内容简介</label>
+      <textarea id="v91Msg" placeholder="简单说明视频讲清楚了什么问题"></textarea>
+    </div>
+    <div class="v91-modal-foot">
+      <button class="v91-btn v91-btn-ghost" id="v91ModalClose">取消</button>
+      <button class="v91-btn v91-btn-primary" id="v91ModalSend">提交</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('v91Toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* 移动导航 */
+  var burger = document.getElementById('v91Burger');
+  var mobileNav = document.getElementById('v91MobileNav');
+  burger.addEventListener('click', function(){
+    mobileNav.classList.toggle('open');
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){ mobileNav.classList.remove('open'); }
+  });
+
+  /* 搜索提示 */
+  var hints = [
+    '秋冬叠穿实录 EP.03',
+    '肩宽女生的领型选择',
+    '预算五百通勤衣橱',
+    '色彩四季型自测',
+    '旧衬衫改托特包',
+    '三城通勤穿搭地图',
+    '创作者扶持计划报名'
+  ];
+  var searchInput = document.getElementById('v91SearchInput');
+  var searchHint = document.getElementById('v91SearchHint');
+  var mobileSearch = document.getElementById('v91MobileSearch');
+
+  function renderHint(kw){
+    var list = hints.filter(function(h){ return !kw || h.indexOf(kw) > -1; });
+    if(!list.length){ list = hints.slice(0,3); }
+    searchHint.innerHTML = list.slice(0,5).map(function(h){
+      return '<div data-hint="' + h + '">🔍 ' + h + '</div>';
+    }).join('');
+    searchHint.classList.add('on');
+  }
+  searchInput.addEventListener('focus', function(){ renderHint(searchInput.value.trim()); });
+  searchInput.addEventListener('input', function(){ renderHint(searchInput.value.trim()); });
+  searchHint.addEventListener('click', function(e){
+    var t = e.target.closest('[data-hint]');
+    if(!t) return;
+    searchInput.value = t.getAttribute('data-hint');
+    searchHint.classList.remove('on');
+    toast('已为你定位：' + searchInput.value);
+  });
+  document.getElementById('v91SearchBtn').addEventListener('click', function(){
+    var v = searchInput.value.trim();
+    toast(v ? ('正在搜索「' + v + '」，共找到相关内容') : '请输入关键词后再搜索');
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.v91-search')){ searchHint.classList.remove('on'); }
+  });
+  document.getElementById('v91MobileSearchBtn').addEventListener('click', function(){
+    var v = mobileSearch.value.trim();
+    toast(v ? ('正在搜索「' + v + '」') : '请输入关键词后再搜索');
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var like = e.target.closest('[data-like]');
+    if(like){
+      var numEl = like.querySelector('b');
+      if(!numEl){
+        var txt = like.textContent.replace(/[^\d,]/g,'').replace(/,/g,'');
+        var n = parseInt(txt,10) || 0;
+        like.textContent = (like.classList.contains('on') ? '♡ ' : '♥ ') + (like.classList.contains('on') ? n - 1 : n + 1).toLocaleString();
+      } else {
+        var cur = parseInt(numEl.textContent.replace(/,/g,''),10) || 0;
+        var delta = like.classList.contains('on') ? -1 : 1;
+        numEl.textContent = (cur + delta).toLocaleString();
+      }
+      like.classList.toggle('on');
+      like.style.opacity = '.85';
+      setTimeout(function(){ like.style.opacity = '1'; }, 160);
+      return;
+    }
+    var fav = e.target.closest('[data-fav]');
+    if(fav){
+      fav.classList.toggle('on');
+      fav.textContent = fav.classList.contains('on') ? '♥ 已收藏' : '☆ 收藏';
+      toast(fav.classList.contains('on') ? '已加入收藏夹' : '已取消收藏');
+      return;
+    }
+  });
+
+  /* 复制链接 */
+  function copyLink(){
+    var text = '91cm 官方网站 · 原创高清视频社区';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ toast('链接已复制，可分享给朋友'); }, function(){ toast('复制失败，请手动选择文本'); });
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try{ document.execCommand('copy'); toast('链接已复制，可分享给朋友'); }
+      catch(err){ toast('复制失败，请手动选择文本'); }
+      document.body.removeChild(ta);
+    }
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-copy]')){ copyLink(); }
+  });
+  document.getElementById('v91CtaCopy').addEventListener('click', copyLink);
+  document.getElementById('v91ShareHero').addEventListener('click', function(){
+    copyLink();
+    setTimeout(function(){ toast('已复制，可粘贴到微信、微博或 QQ 分享'); }, 2400);
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('v91Top');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('on'); }
+    else{ topBtn.classList.remove('on'); }
+  }, { passive:true });
+  topBtn.addEventListener('click', function(){ window.scrollTo({ top:0, behavior:'smooth' }); });
+
+  /* 弹窗 */
+  var modal = document.getElementById('v91Modal');
+  var modalTitle = document.getElementById('v91ModalTitle');
+  var modalSub = document.getElementById('v91ModalSub');
+  var modalForm = document.getElementById('v91ModalForm');
+  var modalSend = document.getElementById('v91ModalSend');
+
+  function openModal(type, extra){
+    if(type === 'comment'){
+      modalTitle.textContent = '发表评论';
+      modalSub.textContent = '友善讨论搭配方法，共同维护包容的社区氛围。';
+      modalForm.style.display = 'block';
+      modalSend.textContent = '发布评论';
+    } else if(type === 'author'){
+      modalTitle.textContent = extra + ' · 创作者档案';
+      modalSub.textContent = '签约创作者，作品在 91cm 官方网站持续更新。';
+      modalForm.style.display = 'block';
+      modalSend.textContent = '关注该创作者';
+    } else if(type === 'vote'){
+      modalTitle.textContent = '年度最受欢迎影像作品投票';
+      modalSub.textContent = '每个账号每日可投 3 次，投票结果将在官方网站公示。';
+      modalForm.style.display = 'block';
+      modalSend.textContent = '确认投票';
+    } else {
+      modalTitle.textContent = '投稿到 91cm 官方网站';
+      modalSub.textContent = '填写基本信息，编辑会在 3 至 5 个工作日内回复。';
+      modalForm.style.display = 'block';
+      modalSend.textContent = '提交';
+    }
+    modal.classList.add('on');
+  }
+  function closeModal(){ modal.classList.remove('on'); }
+
+  document.getElementById('v91SubmitBtn').addEventListener('click', function(){ openModal('submit'); });
+  document.getElementById('v91CtaSubmit').addEventListener('click', function(){ openModal('submit'); });
+  document.getElementById('v91VoteBtn').addEventListener('click', function(){ openModal('vote'); });
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-comment]')){ openModal('comment'); }
+    var authorLink = e.target.closest('[data-author]');
+    if(authorLink){ e.preventDefault(); openModal('author', authorLink.getAttribute('data-author')); }
+  });
+  document.getElementById('v91ModalClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){ if(e.target === modal){ closeModal(); } });
+  modalSend.addEventListener('click', function(){
+    toast('已提交，感谢你参与 91cm 社区');
+    closeModal();
+  });
+
+  /* 数字滚动 */
+  var stats = document.querySelectorAll('.v91-stat b');
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    counted = true;
+    stats.forEach(function(el){
+      var raw = el.textContent;
+      var m = raw.match(/([\d.]+)/);
+      if(!m) return;
+      var target = parseFloat(m[1]);
+      var isFloat = m[1].indexOf('.') > -1;
+      var suffix = raw.replace(m[1], '');
+      var start = 0;
+      var step = target / 26;
+      var timer = setInterval(function(){
+        start += step;
+        if(start >= target){
+          start = target;
+          clearInterval(timer);
+        }
+        el.textContent = (isFloat ? start.toFixed(1) : Math.floor(start).toLocaleString()) + suffix;
+      }, 26);
+    });
+  }
+  var heroSection = document.getElementById('v91-hero');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ runCount(); io.disconnect(); }
+      });
+    }, { threshold:0.25 });
+    io.observe(heroSection);
+  } else {
+    runCount();
+  }
+})();
+</script>
+</body>
+                </html>
